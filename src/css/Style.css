@@ -1,0 +1,157 @@
+/* main section starting */
+
+
+
+#shoe1 {
+    margin-top: 20px;
+    height: 400px;
+}
+
+#name {
+    color: gold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9ch;
+}
+
+#name2 {
+    color: white;
+
+    font-size: 5ch;
+}
+
+h1 {
+    font-weight: bold;
+    color: gold;
+}
+
+/* main section closing */
+
+#btnnikee{
+    margin-top: 13px;
+}
+.card-img-top{
+    height:220px !important ;
+}
+
+.card {
+    width: 18rem;
+    background-color: transparent;
+    box-shadow: lightgray 2px 2px 5px 2px;
+    margin-left: 60px;
+    margin-top: 50px;
+    float: left;
+}
+
+.card-title {
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    margin-left: 60px;
+}
+/* card Section Closing */
+
+
+/* About Section Closing */
+.detail {
+    margin-top: 140px;
+}
+
+/* About Section Closing */
+
+/* Contact Section Opening */
+
+
+#form {
+    margin-top: 50px;
+    margin-right: 100px;
+    height: 450px;
+    width: 500px;
+    float: right;
+    box-shadow: lightgray 2px 2px 5px 2px;
+
+}
+
+label {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#first {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 300px;
+    background: transparent;
+    box-shadow: lightgray 2px 2px 5px 2px;
+    color: white;
+}
+.map{
+    margin-left:100px !important;
+}
+#buy {
+    margin-left: 200px;
+}
+
+/* Contact Section Closing */
+
+/* Footer Section Opening */
+
+
+
+h3 {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+h2 {
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+.flip {
+    margin-left: 15px;
+}
+/* nested brands  */
+#nikee{
+    border-right:solid gold 3px;
+    height:600px ;
+    position:fixed;
+    
+}
+
+#element{
+    height:350px;
+}
+#main{
+    margin-left: 340px;
+}
+
+/* product section  */
+#nested-title{
+height:40px;
+margin-top:10px;
+color:gold;
+background: transparent;
+border: none;
+}
+#nested-title:hover{
+    border-bottom:solid gold 3px;
+}
+
+#productimage{
+    height:250px;
+    width:300px;
+}
+#proname{
+    margin-top: 100px !important;
+    margin-left:100px !important;
+}
+#price{
+    margin-left:100px !important;
+}
+#productcard{
+    margin-left:160px;
+}

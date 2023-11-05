@@ -1,0 +1,132 @@
+@media screen and (max-width: 567px) {
+  /* 
+    navbar */
+  #home {
+    font-size: x-large;
+    color: gold;
+    display: none;
+
+    background-color: black;
+  }
+
+  #product {
+    font-size: x-large;
+    color: gold;
+
+    background-color: black;
+  }
+
+  #contact {
+    font-size: x-large;
+    color: gold;
+    background-color: black;
+  }
+
+  #about {
+    font-size: x-large;
+    color: gold;
+    background-color: black;
+    z-index: auto;
+  }
+
+  #navbar {
+    background-color: black;
+    height: 100% !important;
+    border-bottom: solid gold 3px;
+    width: 100% !important;
+    /* border:solid red 3px ;
+         */
+  }
+
+  #logo {
+    height: 95px !important;
+  }
+
+  /* home main title and img */
+  .text-shoe{
+    width:fit-content;
+   
+  }
+  .shoe{
+    width: fit-content;
+  }
+
+  #shoe1 {
+    margin-top: 0px;
+
+    height: 250px;
+    width:fit-content ;
+  }
+
+  #name {
+    color: gold;
+    font-family: "Caprasimo", cursive;
+    font-size: 3.5ch;
+  }
+
+  #name2 {
+    color: white;
+
+    font-size: 2ch;
+  }
+
+  /* cards */
+  .card {
+  margin-left: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: lightgray 2px 2px 5px 2px;
+  }
+
+  #puma{
+    height:300px !important ;
+  }
+
+  
+
+  /* about-us */
+#logoabout{
+    height:300px;
+    width: fit-content;
+}
+.detail{
+    margin-top:0px;
+    font-size: larger;
+}
+ 
+
+  /* contact */
+ .contact{
+  margin-top: 100px;
+ }
+
+  .map {
+    display: none;
+  }
+
+  #form {
+    margin-top: 50px;
+    height: 450px;
+    width: 300px;
+    box-shadow: lightgray 2px 2px 5px 2px;
+    animation: none;
+   margin-right: 20px;
+  }
+
+  #first {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 250px;
+    background: transparent;
+    box-shadow: lightgray 2px 2px 5px 2px;
+    color: white;
+  }
+
+  /* footer */
+
+  .footer {
+    display: none;
+  }
+ 
+}
+
