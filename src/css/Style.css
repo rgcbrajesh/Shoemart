@@ -65,9 +65,10 @@ h1 {
 
 #form {
     margin-top: 50px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     height: 450px;
-    width: 500px;
+    width:500px;
+    margin-left: 0px;
     float: right;
     box-shadow: lightgray 2px 2px 5px 2px;
 
@@ -88,7 +89,7 @@ label {
     color: white;
 }
 .map{
-    margin-left:100px !important;
+    /* margin-left:100px !important; */
 }
 #buy {
     margin-left: 200px;

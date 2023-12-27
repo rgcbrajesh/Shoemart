@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../image/logo.png";
 import Item from "./Item";
 import "../css/Media.css";
+import photo from "../"
 
 export default function Nikee() {
   const [items, setItem] = useState(Item);
@@ -68,13 +69,13 @@ export default function Nikee() {
         </div>
         <div className="col-md-9   " id="main">
           {items.map((elem) => {
-            const { id, image, category, name,price } = elem;
+            const { id, photo,  name,price } = elem;
             return (
               <div className="row" key={id}>
                 <div className="col-lg-10">
                   <div className="card h-750 w-75 "  id="productcard">
                     <div className="row">
-                      <div className="col-md-5"><img src={image} alt="" id="productimage" /></div>
+                      <div className="col-md-5"><img src={photo} alt="shoe" id="productimage" /></div>
                       <div className="col-md-7">
                         <h3 className="text-white mt-5" id="proname" >{name}</h3>
                         <h3 className="text-primary mt-3" id="price" >Price :-{price}</h3></div>

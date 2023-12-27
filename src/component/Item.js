@@ -1,7 +1,7 @@
 const Item=[
     {
         id:1,
-        image:"../image/adidas1.png",
+        photo:"../image/adidas1.png",
         name:"Adidas-502",
         price:"$50",
         category:"adidas"
@@ -9,7 +9,7 @@ const Item=[
     },
     {
         id:2,
-        image:"../image/puma-s.png",
+        image:"../image/puma.png",
         name:"Puma",
         price:"$50"
 
